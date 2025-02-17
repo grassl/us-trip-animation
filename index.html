@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA Trip Animation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+<body>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Trip Stops -->
+    <div class="timeline">
+        <section id="new-york">
+            <h2>New York City</h2>
+            <img src="images/nyc.jpg" alt="New York City">
+            <p>Explore Times Square, Central Park, and more!</p>
+        </section>
+        <section id="philadelphia">
+            <h2>Philadelphia</h2>
+            <img src="images/philly.jpg" alt="Philadelphia">
+            <p>Visit Independence Hall, Liberty Bell, and more.</p>
+        </section>
+        <section id="washington">
+            <h2>Washington, D.C.</h2>
+            <img src="images/dc.jpg" alt="Washington D.C.">
+            <p>Explore the National Mall, Smithsonian Museums.</p>
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
